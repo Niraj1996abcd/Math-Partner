@@ -1,12 +1,17 @@
 .upper-container{
+    background-color: aqua;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     align-content: center;
     align-items: center;
 }
-.upper-contai   ner #savedBtn{
-    background-color: black;
+.upper-container #M{
+    width: 200px;
+    height: 53px;
+}
+.upper-container #savedBtn{
+    background-color: rgb(93, 20, 187);
     color: white;
     border-radius: 14px;
     width: 200px;
@@ -14,7 +19,8 @@
     font-size: 20px;
 }
 .upper-container #historyBtn{
-    background-color: black;
+    width: 200px;
+    background-color:green;
     color: white;
     border-radius: 14px;
     width: 200px;
@@ -22,6 +28,7 @@
     font-size: 20px;
 }
 .middle-container{
+
     display: flex;
     flex-direction: row;
     justify-content:flex-start;
@@ -36,9 +43,9 @@
     left: -19px;
     border-radius: 25px;
     width: 275px;
-    height: 53px;
+    height: 50px;
     font-size: 20px;
-    background-color: #d1d1d1c9;
+    background-color: #d7d5e2c9;
     color: black;
 }
 
@@ -54,7 +61,7 @@ input[type="text"]{
     position: relative;
     bottom: 19px;
     left: -8px;
-    background-color: black;
+    background-color: rgb(45, 43, 165);
     color: white;
     border-radius: 25px;
     width: 200px;
@@ -62,16 +69,18 @@ input[type="text"]{
     font-size: 20px;
 }
 .middle-container .box3 button{
-    background-color: #d1d1d1c9;
+    display: flex;
+    padding-top: 10px;
+    background-color: white;
     position: relative;
     top: 45px;
-    width: 65px;
+    width:200px;
     height: 62px;
     border-radius: 42px;
 }
 .container-input{
     position: relative;
-    background-color: #d1d1d1c9;
+    background-color:burlywood;
     color: black;
     width: 65%;
     height: 250px;
@@ -86,7 +95,7 @@ input[type="text"]{
     border: none;
 }
 .historycon{
-    background-color: #d1d1d1c9;
+    background-color: #10a017c9;
     color: black;
     width: 65%;
     min-height: 250px;
@@ -108,4 +117,8 @@ input[type="text"]{
     margin-left: 7%;
     font-weight: 600;
     font-size: x-large;
+ }
+ .searchBtn{
+    height: 200;
+    bottom: 2px;
  }
